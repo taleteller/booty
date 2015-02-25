@@ -1,0 +1,28 @@
+{
+    "name": "taleteller/booty",
+    "description": "Responsible Contao Backend Theme",
+    "keywords": ["contao","backend", "theme"],
+    "type": "contao-module",
+    "homepage": "http://holzeisen.de",
+    "time": "2015-02-25T20:00:00+00:00",
+    "license":"LGPL-3.0+",
+    "version":"1.0.0",
+    "authors": [
+        {
+            "name": "Thomas Holzeisen",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "contao/core":">=3.0,<3.5-dev",
+    },
+    "extra": {
+        "contao": {
+            "sources":{
+                "TL_ROOT/system/themes/booty": "system/themes/booty"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

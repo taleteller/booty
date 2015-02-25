@@ -1,0 +1,59 @@
+/**
+ * Contao Backend Theme "Bootly"
+ * 
+ *
+ * Copyright (c) 2015 Thomas Holzeisen
+ *                    info@holzeisen.de
+ * 
+ * Some elements are from Leo Feyer original theme, 
+ * parts taken from bootstrap framework.
+ *
+ * @package taleteller/bootly
+ * @link    https://github.com/taleteller/bootly
+ * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ */
+
+
+/* I wish this WAS a fonts.css - not just some extra file for help hints */
+
+/* Architects Daughter */
+@font-face {
+	font-family:"Architects Daughter";
+	font-style:normal;
+	font-weight:400;
+	src:local("Architects Daughter"), url("../../../assets/fonts/ArchitectsDaughter.woff") format("woff");
+}
+
+/* Paste */
+#paste_hint {
+	position:relative;
+	pointer-events: none;
+}
+#paste_hint p {
+	position:absolute;
+	font-family:"Architects Daughter",cursive;
+	font-size:15px;
+	color:#000;
+	top:53px;
+	right:30px;
+	padding: 10px 36px 20px 0;
+	background:url("images/arrow_right.png") bottom right no-repeat;
+}
+.tl_listing_container {
+	margin-top:44px !important;
+}
+
+/* Sort */
+.selector_container {
+	position:relative;
+}
+.sort_hint {
+	position:absolute;
+	font-family:"Architects Daughter",cursive;
+	font-size:15px;
+	color:#000;
+	top:-48px;
+	left:400px;
+	padding:0 6px 20px 42px;
+	background: url("images/arrow_left.png") 6px bottom no-repeat;
+}

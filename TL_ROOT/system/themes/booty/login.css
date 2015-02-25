@@ -1,0 +1,222 @@
+/**
+ * Contao Backend Theme "Bootly"
+ * 
+ *
+ * Copyright (c) 2015 Thomas Holzeisen
+ *                    info@holzeisen.de
+ * 
+ * Some elements are from Leo Feyer original theme, 
+ * parts taken from bootstrap framework.
+ *
+ * @package taleteller/bootly
+ * @link    https://github.com/taleteller/bootly
+ * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ */
+
+/* Body */
+body {
+	background-color: #EEE;
+}
+
+/* Header */
+#header {
+	width:800px;
+	margin:40px auto 0;
+	padding:1px;
+	border:1px solid #000;
+	border-bottom:0;
+	border-radius: 8px 8px 0 0;
+	background: linear-gradient(to bottom, #4C4C4C 0px, #333 100%);
+}
+#header h1 {
+	margin:0;
+	padding:4px 8px 6px;
+	font-size: 18px;
+	color: #FFF;
+	font-weight: normal;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+	border-right: 1px solid #333;
+	border-radius:8px 8px 0 0;
+}
+
+/* Container */
+#container {
+	width:800px;
+	margin:0 auto;
+	padding:0 0 18px;
+}
+
+/* Main */
+#main {
+/* 	width:516px; */
+	padding:1px;
+	background:#FEFEFE;
+	border:1px solid #bbb;
+	border-top:0;
+	border-radius:0 0 8px 8px;
+}
+
+/* Headlines */
+#container h2 {
+	margin:18px;
+	padding:6px 0 8px 40px;
+	background:url("images/logo.gif") no-repeat left center;
+	font-size:1.2em;
+	color:#8ab858;
+	font-family: 'Abel';
+}
+
+/* Front end link */
+#go_to_frontend {
+	margin:0 18px 12px 0;
+	padding:0;
+	text-align:right;
+}
+
+#go_to_frontend a {
+	font-family: 'Abel';
+	font-size: 1.0em;
+	text-shadow: 0px 1px 0px #FFF;
+	background-image: linear-gradient(to bottom, #FFF 0px, #E0E0E0 100%);
+	background-repeat: repeat-x;
+	border-color: #CCC;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 1px rgba(0, 0, 0, 0.075);
+	color: #333;
+	background-color: #FFF;
+	display: inline-block;
+	padding: 3px 12px;
+	margin-bottom: 0px;
+	font-weight: 400;
+	line-height: 1.42857;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-moz-user-select: none;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+}
+#go_to_frontend a:hover {
+	background-color: #FFA;
+	background-position: 0px -32px;
+}
+
+
+
+/* License (do not remove) */
+#tl_license {
+	margin:24px 18px;
+}
+#tl_license p {
+	font-size: 0.8em;
+	line-height: 1.2em;
+	text-align:justify;
+}
+#tl_license p,#tl_license a {
+	color:#777;
+}
+#tl_license a:hover,#tl_license a:focus,#tl_license a:active {
+	color:#77ac45;
+}
+
+/* Error messages */
+.login_error {
+	margin:1px 0 0;
+	padding:2px 0 3px 20px;
+	background:url("images/error.gif") no-repeat left center;
+}
+.login_error label {
+	color:#c33;
+}
+.tl_error,.tl_info,.tl_confirm {
+	margin:0 0 12px;
+	padding:2px 0 3px 20px;
+}
+.tl_error {
+	color:#c33;
+	background:url("images/error.gif") no-repeat left center;
+}
+.tl_info {
+	color:#4b85ba;
+	background:url("images/show.gif") no-repeat 1px center;
+}
+.tl_confirm {
+	color:#77ac45;
+	background:url("images/ok.gif") no-repeat left center;
+}
+
+/* Login form */
+.tl_login_form {
+	width: 50%;
+	margin:18px auto 24px;
+}
+.tl_login_form .formbody {
+/* 	padding-top:6px; */
+}
+.tl_login_form tr td {
+	padding: 4px 0px;
+}
+.tl_login_table {
+	width:100%;
+	margin:0 0 6px;
+}
+.tl_login_table td:nth-child(2n) {
+	width:180px;
+}
+.tl_login_submit_container {
+	padding-top:0;
+	text-align:right;
+}
+
+/* Form fields */
+.tl_text {
+	width:200px !important;
+}
+.tl_select {
+	width:200px !important;
+}
+
+/* Handheld */
+@media (max-width:767px) {
+	#header,#container {
+		width:auto;
+		margin-left:10px;
+		margin-right:10px;
+	}
+	#main {
+		width:auto;
+	}
+	.tl_login_form {
+		width:auto;
+		margin:-6px 18px 24px;
+	}
+	.tl_login_table {
+		width:90%;
+		margin:0 auto 9px;
+	}
+	.tl_login_table td {
+		position:relative;
+		width:auto !important;
+		text-align:left !important;
+	}
+	.tl_login_table th,.tl_login_table td {
+		display:block;
+	}
+	.tl_login_table label {
+		display:block;
+		margin-top:3px;
+	}
+	.tl_text,.tl_select {
+		width:100% !important;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+	.tl_login_submit_container {
+		text-align:left;
+		margin-left:5%;
+	}
+	.tl_login_submit_container input {
+		margin-left:0;
+	}
+}

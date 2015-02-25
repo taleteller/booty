@@ -1,0 +1,73 @@
+/**
+ * Contao Open Source CMS
+ *
+ * Copyright (c) 2005-2014 Leo Feyer
+ *
+ * @package Core
+ * @link    https://contao.org
+ * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ */
+
+/* Body */
+html,body {
+	background:#333633;
+}
+a,body,div,form,input,select,label,p {
+	color:#333633;
+}
+p {
+	margin-bottom:0;
+	font-weight:bold;
+}
+p,label {
+	font-size:12px;
+	font-size:.75rem;
+}
+
+/* Container */
+#container {
+/* 	height:22px; */
+	margin:0 0 2px;
+	padding:4px 6px 6px 12px;
+	overflow:hidden;
+	line-height:1;
+	background:#eee;
+	background-image:-moz-linear-gradient(top, #eee 25%, #ddd 100%);
+	background-image:-webkit-linear-gradient(top, #eee 25%, #ddd 100%);
+	background-image:-o-linear-gradient(top, #eee 25%, #ddd 100%);
+	background-image:-ms-linear-gradient(top, #eee 25%, #ddd 100%);
+	background-image:linear-gradient(to bottom, #eee 25%, #ddd 100%);
+}
+
+/* Wish we could specify more than 33px */
+
+#container input {
+  padding: 2px 8px !important;
+  margin: 0px !important;
+}
+
+/* Left */
+#left {
+	width:17%;
+	float:left;
+	padding:7px 0 5px;
+}
+
+/* Right */
+#right {
+	width:83%;
+	float:right;
+	text-align:right;
+}
+.close {
+	font-size:16px;
+	font-size:1rem;
+	color:#999;
+	font-weight:bold;
+	padding:0 3px;
+}
+.close:hover {
+	color:#666;
+}
+
+/* Form elements */
