@@ -223,10 +223,7 @@ window.addEvent('domready', function() {
 	$$('.footer_top').removeEvents('mouseenter');
 	$$('.footer_top').removeEvents('mouseleave');
 	// more branding
-	$$('#footer div').appendHTML('<b>Bootly Contao Theme 1.0</b> (<a href="http://github.com/taleteller/bootly">github.com/taleteller/bootly</a>) LGPL 3.0 | ','top');
-
-	content: '';
-	
+	$$('#footer div').appendHTML('<b>Booty Contao Theme 1.0</b> (<a href="http://github.com/taleteller/booty">github.com/taleteller/booty</a>) LGPL 3.0 | ','top');
 	
 });
 
