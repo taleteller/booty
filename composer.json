@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "contao/core":">=3.0,<3.5-dev",
+        "contao/core":">=3.0,<3.5-dev"
     },
     "extra": {
         "contao": {
